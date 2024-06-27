@@ -32,14 +32,14 @@ img {
 .media {
   width: 100%;
   height: auto;
-  max-height: 200px; /* Adjust the height as needed */
+  max-height: 400px; /* Adjust the height as needed */
   object-fit: cover; /* Ensures the content fits nicely */
 }
 
 .large-media {
   width: 100%;
   height: auto;
-  max-height: 400px; /* Adjust the height as needed */
+  max-height: 600px; /* Adjust the height as needed */
   object-fit: cover; /* Ensures the content fits nicely */
 }
 
@@ -57,10 +57,11 @@ img {
 }
 
 #other .other-media {
-  width: 60%; /* Slightly narrower width */
+  width: 60%;
   height: auto;
-  max-height: 800px; /* Slightly taller height */
+  max-height: 800px;
   object-fit: cover;
+  margin: 0 auto;
 }
 
 .pc-only {
